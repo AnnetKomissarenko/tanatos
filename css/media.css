@@ -1,0 +1,83 @@
+@media screen and (max-width: 900px) {
+    .wrapper #header .headerFade .menu>li {
+        display: block;
+    }
+    .wrapper #header .headerFade .menu li a {
+        font-size: 14px;
+    }
+    .wrapper #header .headerFade .header_block h1 {
+        font-size: 40px;
+    }
+    .wrapper #header .headerFade .header_block p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .wrapper #header .headerFade .header_block .buttons {
+        text-align: center;
+    }
+    .wrapper #header .headerFade .header_block .buttons a {
+        display: block;  
+        margin: 0 auto;
+    }
+    .wrapper #header .headerFade .header_block .buttons a:first-child {
+        margin: 0 auto;
+    }
+    .wrapper .newsletter .newsletterFade form #enterEmail {
+        width: 320px;
+        margin-right:30px;
+        margin-bottom: 20px;
+    }
+    .wrapper #ourWorks .works .work img {
+        width:280px;
+        height:280px;  
+    }
+    .wrapper .comments .commentsFade .comment-item p {
+        font-size: 16px;
+    }
+    .wrapper .comments .commentsFade p:last-child {
+        font-size: 12px;
+    }
+    .wrapper #sayHello .sayHelloFade  {
+        text-align: center;
+        margin: 0 auto;
+        padding:50px 30px 50px 30px;
+    } 
+    .wrapper #sayHello .sayHelloFade p {
+        margin-bottom:50px;
+    }
+    .wrapper #sayHello .sayHelloFade form {
+        text-align: center;
+    }
+    .wrapper #sayHello .sayHelloFade form input,
+    .wrapper #sayHello .sayHelloFade form textarea {
+        width: 320px;
+    }
+    .wrapper #sayHello .sayHelloFade form textarea {
+        margin-top: 0;
+    }
+    .wrapper #sayHello .sayHelloFade form input[type="email"],
+    .wrapper #sayHello .sayHelloFade form input[type="text"],
+    .wrapper #sayHello .sayHelloFade form label[for="hireUsButton"]{
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+    .wrapper #sayHello .sayHelloFade .socialMediaFooter {
+        display: block;
+    }
+    .wrapper .copy {
+        padding-top: 35px;
+    }
+    .wrapper .copy  p {
+        font-size: 10px;
+        display: block;
+        line-height:16px;
+    }
+    .wrapper .copy p:nth-child(3) {
+        float: none;
+        display: block;
+	    text-align:left;
+    }
+    .wrapper .copy a {
+        margin-top: 0;
+    }
+}
